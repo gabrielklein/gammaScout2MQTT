@@ -34,7 +34,10 @@ echo ""
 
 FILE=gammaScout2Mqtt.conf
 if test -f "$FILE"; then
-    #
+    echo "Done"
 else
-    echo "You need to copy gammaScout2Mqtt.conf.sample to gammaScout2Mqtt.conf and configure this file!"
+    echo "You need to copy gammaScout2Mqtt.conf.sample to gammaScout2Mqtt.conf and configure this file"
+    exit 1
 fi
+
+
