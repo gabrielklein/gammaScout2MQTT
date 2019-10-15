@@ -1,21 +1,3 @@
-TOFIX !!!
-Received: 0.118
-Received: 0.117
-Received: 0.118
-Received: 0.119
-Received: 0.121
-Received: 0.122
-Received: 0.122
-Received: 0.122
-Received something strange 0,1
-terminate called after throwing an instance of 'std::out_of_range'
-  what():  basic_string::at: __n (which is 4294967294) >= this->size() (which is 8)
-Aborted
-
-https://stackedit.io/app#
-
------------------------------
-
 # gammaScout2MQTT
 *Linux / Raspberry C++ to send data from a Gamma Scout Online to a MQTT server*
 
