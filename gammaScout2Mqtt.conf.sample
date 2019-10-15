@@ -1,0 +1,43 @@
+#######################
+# Configuration file for gammaScout2Mqtt
+#######################
+#
+# This configuration file must be named gammaScout2Mqtt.conf
+# It is parsed, then the command line arguments are parsed.
+# It supports the same arguments as ./gammaScout2Mqtt --help
+#
+# Remove the # at the beginning of a line to support a parameter
+# "parameter" then "space"
+# DON'T USE # TO COMMENT AFTER A PARAMETER
+#
+#######################
+
+
+# Don't use this keyword, otherwise you will get help every time :)
+# help
+# Don't use version too...
+# version
+
+# -----------------------------
+
+# ------------------------------
+# --- Settings for device
+# ------------------------------
+
+# Device to be used
+device /dev/ttyUSB0
+
+# ------------------------------
+# --- Settings for MQTT ######
+# ------------------------------
+
+# Host and port of the MQTT server
+host 127.0.0.1
+port 1883
+# username JohnDoe
+# password JohnPassword
+# Send the 
+topic /gammascout
+
+# Send the value every x seconds
+seconds 30

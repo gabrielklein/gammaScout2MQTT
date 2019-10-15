@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.in": "cpp",
+        "string_view": "cpp",
+        "*.tcc": "cpp",
+        "string": "cpp",
+        "chrono": "cpp",
+        "random": "cpp",
+        "sstream": "cpp"
+    }
+}
